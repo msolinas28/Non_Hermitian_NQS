@@ -22,3 +22,8 @@ This repository contains utilities to run variational Monte Carlo (VMC) for non-
 - `Custom_nk/nh_variance_opt.py` — VMC drivers (`NHDriver`, `NHDriverSymm`) that optimize variational parameters using a generalized variance cost function for non-Hermitian Hamiltonians. The drivers support different optimization phases (fixed / transition / self-consistent) and can optimize left/right states either jointly or with symmetry-specific routines.
 
 - `Custom_nk/variance.py` — `Variance` constructs the left and right variance operators from a Hamiltonian and its adjoint.
+
+## Data and Figures
+
+- `Data/` — contains all the datasets used in the paper (raw and processed numerical results, CSVs, and any auxiliary data files used to produce the results).
+- `Data_plot/` — contains the figures shown in the paper and the notebooks used to generate them (`Data_plot/paper_plot.ipynb` reproduces the plots used in the manuscript).
