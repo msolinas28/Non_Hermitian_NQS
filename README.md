@@ -1,4 +1,4 @@
-# Non-Hermitian Neural Quantum States (Non_Hermitian_NQS)
+# Non-Hermitian Neural Quantum States
 
 This repository contains the code that accompanies the framework developed in our paper (see https://arxiv.org/abs/2508.01072). It implements neural-network variational methods for non-Hermitian quantum spin systems and provides practical tools to:
 
