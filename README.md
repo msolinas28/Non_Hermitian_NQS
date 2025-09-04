@@ -10,7 +10,6 @@ The implementation is built on NetKet and JAX. See the paper for the theoretical
 ## Highlights
 - Non-Hermitian Transverse-Field Ising Model implementation (`hamiltonian.cTFIM`).
 - JAX-accelerated routines to compute biorthogonal expectation values between left and right variational states (`Custom_nk/nh_expect.py`, `Custom_nk/cc_nh_expect.py`).
-- 
 - Example notebook: `Tutorial/nh_driver.ipynb` demonstrating common workflows.
 
 ## Non-Hermitian VMC utilities
